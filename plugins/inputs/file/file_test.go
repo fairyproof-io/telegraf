@@ -14,10 +14,10 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/plugins/parsers"
-	"github.com/influxdata/telegraf/plugins/parsers/csv"
-	"github.com/influxdata/telegraf/testutil"
+	"github.com/fairyproof-io/telegraf"
+	"github.com/fairyproof-io/telegraf/plugins/parsers"
+	"github.com/fairyproof-io/telegraf/plugins/parsers/csv"
+	"github.com/fairyproof-io/telegraf/testutil"
 )
 
 func TestRefreshFilePaths(t *testing.T) {

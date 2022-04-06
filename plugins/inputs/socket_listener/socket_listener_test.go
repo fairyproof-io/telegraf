@@ -14,9 +14,9 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/influxdata/telegraf/config"
-	"github.com/influxdata/telegraf/internal"
-	"github.com/influxdata/telegraf/testutil"
+	"github.com/fairyproof-io/telegraf/config"
+	"github.com/fairyproof-io/telegraf/internal"
+	"github.com/fairyproof-io/telegraf/testutil"
 	"github.com/influxdata/wlog"
 )
 

@@ -6,8 +6,8 @@ import (
 	"github.com/shirou/gopsutil/v3/host"
 	"github.com/stretchr/testify/require"
 
-	"github.com/influxdata/telegraf/plugins/inputs/system"
-	"github.com/influxdata/telegraf/testutil"
+	"github.com/fairyproof-io/telegraf/plugins/inputs/system"
+	"github.com/fairyproof-io/telegraf/testutil"
 )
 
 func TestTemperature(t *testing.T) {

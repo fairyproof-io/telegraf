@@ -3,7 +3,7 @@ package kube_inventory
 import (
 	"context"
 
-	"github.com/influxdata/telegraf"
+	"github.com/fairyproof-io/telegraf"
 	v1 "k8s.io/api/apps/v1"
 )
 

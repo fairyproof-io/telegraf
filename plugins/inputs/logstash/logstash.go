@@ -9,12 +9,12 @@ import (
 	"strings"
 	"time"
 
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/config"
-	"github.com/influxdata/telegraf/internal/choice"
-	"github.com/influxdata/telegraf/plugins/common/tls"
-	"github.com/influxdata/telegraf/plugins/inputs"
-	jsonParser "github.com/influxdata/telegraf/plugins/parsers/json"
+	"github.com/fairyproof-io/telegraf"
+	"github.com/fairyproof-io/telegraf/config"
+	"github.com/fairyproof-io/telegraf/internal/choice"
+	"github.com/fairyproof-io/telegraf/plugins/common/tls"
+	"github.com/fairyproof-io/telegraf/plugins/inputs"
+	jsonParser "github.com/fairyproof-io/telegraf/plugins/parsers/json"
 )
 
 const sampleConfig = `

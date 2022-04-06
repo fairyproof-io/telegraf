@@ -6,10 +6,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/config"
-	"github.com/influxdata/telegraf/plugins/common/tls"
-	"github.com/influxdata/telegraf/plugins/inputs"
+	"github.com/fairyproof-io/telegraf"
+	"github.com/fairyproof-io/telegraf/config"
+	"github.com/fairyproof-io/telegraf/plugins/common/tls"
+	"github.com/fairyproof-io/telegraf/plugins/inputs"
 	"go.opentelemetry.io/collector/model/otlpgrpc"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials"
@@ -45,7 +45,7 @@ const sampleConfig = `
   # metrics_schema = "prometheus-v1"
 
   ## Optional TLS Config.
-  ## For advanced options: https://github.com/influxdata/telegraf/blob/v1.18.3/docs/TLS.md
+  ## For advanced options: https://github.com/fairyproof-io/telegraf/blob/v1.18.3/docs/TLS.md
   ##
   ## Set one or more allowed client CA certificate file names to
   ## enable mutually authenticated TLS connections.

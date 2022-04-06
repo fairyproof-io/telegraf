@@ -3,8 +3,8 @@ package models
 import (
 	"sync"
 
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/selfstat"
+	"github.com/fairyproof-io/telegraf"
+	"github.com/fairyproof-io/telegraf/selfstat"
 )
 
 type RunningProcessor struct {

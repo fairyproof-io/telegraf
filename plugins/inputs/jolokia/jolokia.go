@@ -9,9 +9,9 @@ import (
 	"net/url"
 	"time"
 
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/config"
-	"github.com/influxdata/telegraf/plugins/inputs"
+	"github.com/fairyproof-io/telegraf"
+	"github.com/fairyproof-io/telegraf/config"
+	"github.com/fairyproof-io/telegraf/plugins/inputs"
 )
 
 // Default http timeouts
@@ -62,7 +62,7 @@ type Jolokia struct {
 const sampleConfig = `
   # DEPRECATED: the jolokia plugin has been deprecated in favor of the
   # jolokia2 plugin
-  # see https://github.com/influxdata/telegraf/tree/master/plugins/inputs/jolokia2
+  # see https://github.com/fairyproof-io/telegraf/tree/master/plugins/inputs/jolokia2
 
   ## This is the context root used to compose the jolokia url
   ## NOTE that Jolokia requires a trailing slash at the end of the context root
@@ -261,7 +261,7 @@ func (j *Jolokia) Gather(acc telegraf.Accumulator) error {
 	if j.jClient == nil {
 		j.Log.Warn("DEPRECATED: the jolokia plugin has been deprecated " +
 			"in favor of the jolokia2 plugin " +
-			"(https://github.com/influxdata/telegraf/tree/master/plugins/inputs/jolokia2)")
+			"(https://github.com/fairyproof-io/telegraf/tree/master/plugins/inputs/jolokia2)")
 
 		tr := &http.Transport{ResponseHeaderTimeout: time.Duration(j.ResponseHeaderTimeout)}
 		j.jClient = &JolokiaClientImpl{&http.Client{

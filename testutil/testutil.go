@@ -7,8 +7,8 @@ import (
 	"time"
 
 	"github.com/google/go-cmp/cmp"
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/metric"
+	"github.com/fairyproof-io/telegraf"
+	"github.com/fairyproof-io/telegraf/metric"
 )
 
 var localhost = "localhost"

@@ -6,10 +6,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/plugins/inputs"
-	"github.com/influxdata/telegraf/plugins/parsers"
-	"github.com/influxdata/telegraf/selfstat"
+	"github.com/fairyproof-io/telegraf"
+	"github.com/fairyproof-io/telegraf/plugins/inputs"
+	"github.com/fairyproof-io/telegraf/plugins/parsers"
+	"github.com/fairyproof-io/telegraf/selfstat"
 )
 
 // UDPListener main struct for the collector
@@ -70,7 +70,7 @@ var malformedwarn = "udp_listener has received %d malformed packets" +
 const sampleConfig = `
   # DEPRECATED: the TCP listener plugin has been deprecated in favor of the
   # socket_listener plugin
-  # see https://github.com/influxdata/telegraf/tree/master/plugins/inputs/socket_listener
+  # see https://github.com/fairyproof-io/telegraf/tree/master/plugins/inputs/socket_listener
 `
 
 func (u *UDPListener) SampleConfig() string {
@@ -97,7 +97,7 @@ func (u *UDPListener) Start(acc telegraf.Accumulator) error {
 
 	u.Log.Warn("DEPRECATED: the UDP listener plugin has been deprecated " +
 		"in favor of the socket_listener plugin " +
-		"(https://github.com/influxdata/telegraf/tree/master/plugins/inputs/socket_listener)")
+		"(https://github.com/fairyproof-io/telegraf/tree/master/plugins/inputs/socket_listener)")
 
 	tags := map[string]string{
 		"address": u.ServiceAddress,

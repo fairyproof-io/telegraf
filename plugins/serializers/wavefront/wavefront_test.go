@@ -9,9 +9,9 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/metric"
-	"github.com/influxdata/telegraf/plugins/outputs/wavefront"
+	"github.com/fairyproof-io/telegraf"
+	"github.com/fairyproof-io/telegraf/metric"
+	"github.com/fairyproof-io/telegraf/plugins/outputs/wavefront"
 )
 
 func TestBuildTags(t *testing.T) {

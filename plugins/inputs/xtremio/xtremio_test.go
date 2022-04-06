@@ -11,8 +11,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/testutil"
+	"github.com/fairyproof-io/telegraf"
+	"github.com/fairyproof-io/telegraf/testutil"
 )
 
 var testdataDir = getTestdataDir()

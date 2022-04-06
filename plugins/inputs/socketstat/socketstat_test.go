@@ -10,8 +10,8 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/influxdata/telegraf/config"
-	"github.com/influxdata/telegraf/testutil"
+	"github.com/fairyproof-io/telegraf/config"
+	"github.com/fairyproof-io/telegraf/testutil"
 	"github.com/stretchr/testify/require"
 )
 

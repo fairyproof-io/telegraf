@@ -20,7 +20,7 @@ import (
 	"github.com/vmware/govmomi/vim25/soap"
 	"github.com/vmware/govmomi/vim25/types"
 
-	"github.com/influxdata/telegraf"
+	"github.com/fairyproof-io/telegraf"
 )
 
 // The highest number of metrics we can query for, no matter what settings

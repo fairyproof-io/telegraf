@@ -9,7 +9,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/influxdata/telegraf/plugins/parsers/influx"
+	"github.com/fairyproof-io/telegraf/plugins/parsers/influx"
 )
 
 type TestingHandler struct {

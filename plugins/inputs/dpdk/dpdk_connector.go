@@ -9,7 +9,7 @@ import (
 	"net"
 	"time"
 
-	"github.com/influxdata/telegraf/config"
+	"github.com/fairyproof-io/telegraf/config"
 )
 
 const maxInitMessageLength = 1024

@@ -4,7 +4,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/influxdata/telegraf"
+	"github.com/fairyproof-io/telegraf"
 	"go.starlark.net/starlark"
 	"go.starlark.net/starlarkstruct"
 )

@@ -3,8 +3,8 @@ package models
 import (
 	"fmt"
 
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/filter"
+	"github.com/fairyproof-io/telegraf"
+	"github.com/fairyproof-io/telegraf/filter"
 )
 
 // TagFilter is the name of a tag, and the values on which to filter

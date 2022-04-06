@@ -14,7 +14,7 @@ import (
 	"golang.org/x/sys/windows/svc"
 	"golang.org/x/sys/windows/svc/mgr"
 
-	"github.com/influxdata/telegraf/testutil"
+	"github.com/fairyproof-io/telegraf/testutil"
 )
 
 //testData is DD wrapper for unit testing of WinServices

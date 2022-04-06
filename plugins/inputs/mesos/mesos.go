@@ -12,10 +12,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/plugins/common/tls"
-	"github.com/influxdata/telegraf/plugins/inputs"
-	jsonparser "github.com/influxdata/telegraf/plugins/parsers/json"
+	"github.com/fairyproof-io/telegraf"
+	"github.com/fairyproof-io/telegraf/plugins/common/tls"
+	"github.com/fairyproof-io/telegraf/plugins/inputs"
+	jsonparser "github.com/fairyproof-io/telegraf/plugins/parsers/json"
 )
 
 type Role string

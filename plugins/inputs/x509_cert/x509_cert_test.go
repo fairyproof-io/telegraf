@@ -16,10 +16,10 @@ import (
 	"github.com/pion/dtls/v2"
 	"github.com/stretchr/testify/require"
 
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/config"
-	_tls "github.com/influxdata/telegraf/plugins/common/tls"
-	"github.com/influxdata/telegraf/testutil"
+	"github.com/fairyproof-io/telegraf"
+	"github.com/fairyproof-io/telegraf/config"
+	_tls "github.com/fairyproof-io/telegraf/plugins/common/tls"
+	"github.com/fairyproof-io/telegraf/testutil"
 )
 
 var pki = testutil.NewPKI("../../../testutil/pki")

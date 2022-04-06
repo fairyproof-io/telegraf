@@ -8,7 +8,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/influxdata/telegraf/config"
+	"github.com/fairyproof-io/telegraf/config"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

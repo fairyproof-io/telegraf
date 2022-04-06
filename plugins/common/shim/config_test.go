@@ -7,10 +7,10 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/influxdata/telegraf"
-	tgConfig "github.com/influxdata/telegraf/config"
-	"github.com/influxdata/telegraf/plugins/inputs"
-	"github.com/influxdata/telegraf/plugins/processors"
+	"github.com/fairyproof-io/telegraf"
+	tgConfig "github.com/fairyproof-io/telegraf/config"
+	"github.com/fairyproof-io/telegraf/plugins/inputs"
+	"github.com/fairyproof-io/telegraf/plugins/processors"
 )
 
 func TestLoadConfig(t *testing.T) {

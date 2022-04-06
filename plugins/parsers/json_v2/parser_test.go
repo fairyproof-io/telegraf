@@ -9,12 +9,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/config"
-	"github.com/influxdata/telegraf/plugins/inputs"
-	"github.com/influxdata/telegraf/plugins/inputs/file"
-	"github.com/influxdata/telegraf/plugins/parsers/influx"
-	"github.com/influxdata/telegraf/testutil"
+	"github.com/fairyproof-io/telegraf"
+	"github.com/fairyproof-io/telegraf/config"
+	"github.com/fairyproof-io/telegraf/plugins/inputs"
+	"github.com/fairyproof-io/telegraf/plugins/inputs/file"
+	"github.com/fairyproof-io/telegraf/plugins/parsers/influx"
+	"github.com/fairyproof-io/telegraf/testutil"
 	"github.com/stretchr/testify/require"
 )
 

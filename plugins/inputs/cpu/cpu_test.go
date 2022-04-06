@@ -7,8 +7,8 @@ import (
 	cpuUtil "github.com/shirou/gopsutil/v3/cpu"
 	"github.com/stretchr/testify/require"
 
-	"github.com/influxdata/telegraf/plugins/inputs/system"
-	"github.com/influxdata/telegraf/testutil"
+	"github.com/fairyproof-io/telegraf/plugins/inputs/system"
+	"github.com/fairyproof-io/telegraf/testutil"
 )
 
 func TestCPUStats(t *testing.T) {

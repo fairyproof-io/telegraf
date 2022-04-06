@@ -1,7 +1,7 @@
 package outputs
 
 import (
-	"github.com/influxdata/telegraf"
+	"github.com/fairyproof-io/telegraf"
 )
 
 type Creator func() telegraf.Output

@@ -15,9 +15,9 @@ import (
 	monitoringpb "google.golang.org/genproto/googleapis/monitoring/v3"
 	"google.golang.org/protobuf/types/known/timestamppb"
 
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/internal"
-	"github.com/influxdata/telegraf/plugins/outputs"
+	"github.com/fairyproof-io/telegraf"
+	"github.com/fairyproof-io/telegraf/internal"
+	"github.com/fairyproof-io/telegraf/plugins/outputs"
 )
 
 // Stackdriver is the Google Stackdriver config info.

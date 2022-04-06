@@ -8,7 +8,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/influxdata/telegraf/testutil"
+	"github.com/fairyproof-io/telegraf/testutil"
 )
 
 // TestInterval verifies that the correct interval is created. It is not

@@ -14,15 +14,15 @@ import (
 	cwClient "github.com/aws/aws-sdk-go-v2/service/cloudwatch"
 	"github.com/aws/aws-sdk-go-v2/service/cloudwatch/types"
 
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/config"
-	internalaws "github.com/influxdata/telegraf/config/aws"
-	"github.com/influxdata/telegraf/filter"
-	"github.com/influxdata/telegraf/internal"
-	"github.com/influxdata/telegraf/internal/limiter"
-	internalMetric "github.com/influxdata/telegraf/metric"
-	internalProxy "github.com/influxdata/telegraf/plugins/common/proxy"
-	"github.com/influxdata/telegraf/plugins/inputs"
+	"github.com/fairyproof-io/telegraf"
+	"github.com/fairyproof-io/telegraf/config"
+	internalaws "github.com/fairyproof-io/telegraf/config/aws"
+	"github.com/fairyproof-io/telegraf/filter"
+	"github.com/fairyproof-io/telegraf/internal"
+	"github.com/fairyproof-io/telegraf/internal/limiter"
+	internalMetric "github.com/fairyproof-io/telegraf/metric"
+	internalProxy "github.com/fairyproof-io/telegraf/plugins/common/proxy"
+	"github.com/fairyproof-io/telegraf/plugins/inputs"
 )
 
 const (

@@ -7,10 +7,10 @@ import (
 	"os"
 
 	"github.com/BurntSushi/toml"
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/plugins/inputs"
-	"github.com/influxdata/telegraf/plugins/outputs"
-	"github.com/influxdata/telegraf/plugins/processors"
+	"github.com/fairyproof-io/telegraf"
+	"github.com/fairyproof-io/telegraf/plugins/inputs"
+	"github.com/fairyproof-io/telegraf/plugins/outputs"
+	"github.com/fairyproof-io/telegraf/plugins/processors"
 )
 
 type config struct {

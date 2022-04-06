@@ -12,9 +12,9 @@ import (
 
 	"github.com/Azure/azure-kusto-go/kusto"
 	"github.com/Azure/azure-kusto-go/kusto/ingest"
-	"github.com/influxdata/telegraf"
-	telegrafJson "github.com/influxdata/telegraf/plugins/serializers/json"
-	"github.com/influxdata/telegraf/testutil"
+	"github.com/fairyproof-io/telegraf"
+	telegrafJson "github.com/fairyproof-io/telegraf/plugins/serializers/json"
+	"github.com/fairyproof-io/telegraf/testutil"
 	"github.com/stretchr/testify/require"
 )
 

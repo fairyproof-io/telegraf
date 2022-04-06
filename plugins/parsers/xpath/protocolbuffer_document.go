@@ -5,7 +5,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/influxdata/telegraf"
+	"github.com/fairyproof-io/telegraf"
 
 	"google.golang.org/protobuf/proto"
 	"google.golang.org/protobuf/reflect/protodesc"

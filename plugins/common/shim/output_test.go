@@ -6,10 +6,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/metric"
-	"github.com/influxdata/telegraf/plugins/serializers"
-	"github.com/influxdata/telegraf/testutil"
+	"github.com/fairyproof-io/telegraf"
+	"github.com/fairyproof-io/telegraf/metric"
+	"github.com/fairyproof-io/telegraf/plugins/serializers"
+	"github.com/fairyproof-io/telegraf/testutil"
 	"github.com/stretchr/testify/require"
 )
 

@@ -17,11 +17,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/internal"
-	"github.com/influxdata/telegraf/metric"
-	"github.com/influxdata/telegraf/plugins/outputs/influxdb"
-	"github.com/influxdata/telegraf/testutil"
+	"github.com/fairyproof-io/telegraf"
+	"github.com/fairyproof-io/telegraf/internal"
+	"github.com/fairyproof-io/telegraf/metric"
+	"github.com/fairyproof-io/telegraf/plugins/outputs/influxdb"
+	"github.com/fairyproof-io/telegraf/testutil"
 	"github.com/stretchr/testify/require"
 )
 

@@ -1,6 +1,6 @@
 package shim
 
-import "github.com/influxdata/telegraf"
+import "github.com/fairyproof-io/telegraf"
 
 // inputShim implements the MetricMaker interface.
 type inputShim struct {

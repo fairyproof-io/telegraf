@@ -7,7 +7,7 @@ import (
 
 	"go.starlark.net/starlark"
 
-	"github.com/influxdata/telegraf/metric"
+	"github.com/fairyproof-io/telegraf/metric"
 )
 
 func newMetric(_ *starlark.Thread, _ *starlark.Builtin, args starlark.Tuple, kwargs []starlark.Tuple) (starlark.Value, error) {

@@ -8,10 +8,10 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/influxdata/telegraf/config"
-	"github.com/influxdata/telegraf/internal/snmp"
-	si "github.com/influxdata/telegraf/plugins/inputs/snmp"
-	"github.com/influxdata/telegraf/testutil"
+	"github.com/fairyproof-io/telegraf/config"
+	"github.com/fairyproof-io/telegraf/internal/snmp"
+	si "github.com/fairyproof-io/telegraf/plugins/inputs/snmp"
+	"github.com/fairyproof-io/telegraf/testutil"
 )
 
 func TestTable(t *testing.T) {

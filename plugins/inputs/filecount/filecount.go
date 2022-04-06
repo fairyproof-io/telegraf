@@ -5,10 +5,10 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/config"
-	"github.com/influxdata/telegraf/internal/globpath"
-	"github.com/influxdata/telegraf/plugins/inputs"
+	"github.com/fairyproof-io/telegraf"
+	"github.com/fairyproof-io/telegraf/config"
+	"github.com/fairyproof-io/telegraf/internal/globpath"
+	"github.com/fairyproof-io/telegraf/plugins/inputs"
 	"github.com/karrick/godirwalk"
 	"github.com/pkg/errors"
 )

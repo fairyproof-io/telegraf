@@ -5,8 +5,8 @@ import (
 	"math"
 	"time"
 
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/metric"
+	"github.com/fairyproof-io/telegraf"
+	"github.com/fairyproof-io/telegraf/metric"
 
 	"github.com/prometheus/common/model"
 	"github.com/prometheus/prometheus/prompb"

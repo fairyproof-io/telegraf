@@ -4,8 +4,8 @@ import (
 	"fmt"
 
 	"github.com/golang/geo/s2"
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/plugins/processors"
+	"github.com/fairyproof-io/telegraf"
+	"github.com/fairyproof-io/telegraf/plugins/processors"
 )
 
 type Geo struct {

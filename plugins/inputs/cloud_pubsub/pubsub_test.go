@@ -7,8 +7,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/influxdata/telegraf/plugins/parsers"
-	"github.com/influxdata/telegraf/testutil"
+	"github.com/fairyproof-io/telegraf/plugins/parsers"
+	"github.com/fairyproof-io/telegraf/testutil"
 )
 
 const (

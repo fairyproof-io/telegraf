@@ -14,11 +14,11 @@ import (
 	"go.starlark.net/starlark"
 	"go.starlark.net/starlarkstruct"
 
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/config"
-	common "github.com/influxdata/telegraf/plugins/common/starlark"
-	"github.com/influxdata/telegraf/plugins/parsers"
-	"github.com/influxdata/telegraf/testutil"
+	"github.com/fairyproof-io/telegraf"
+	"github.com/fairyproof-io/telegraf/config"
+	common "github.com/fairyproof-io/telegraf/plugins/common/starlark"
+	"github.com/fairyproof-io/telegraf/plugins/parsers"
+	"github.com/fairyproof-io/telegraf/testutil"
 )
 
 // Tests for runtime errors in the processors Init function.

@@ -10,10 +10,10 @@ import (
 
 	"github.com/tidwall/gjson"
 
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/filter"
-	"github.com/influxdata/telegraf/internal"
-	"github.com/influxdata/telegraf/metric"
+	"github.com/fairyproof-io/telegraf"
+	"github.com/fairyproof-io/telegraf/filter"
+	"github.com/fairyproof-io/telegraf/internal"
+	"github.com/fairyproof-io/telegraf/metric"
 )
 
 var (

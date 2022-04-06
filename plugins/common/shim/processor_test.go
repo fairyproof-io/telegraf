@@ -10,10 +10,10 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/metric"
-	"github.com/influxdata/telegraf/plugins/parsers"
-	"github.com/influxdata/telegraf/plugins/serializers"
+	"github.com/fairyproof-io/telegraf"
+	"github.com/fairyproof-io/telegraf/metric"
+	"github.com/fairyproof-io/telegraf/plugins/parsers"
+	"github.com/fairyproof-io/telegraf/plugins/serializers"
 )
 
 func TestProcessorShim(t *testing.T) {

@@ -7,7 +7,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/influxdata/telegraf/internal/choice"
+	"github.com/fairyproof-io/telegraf/internal/choice"
 )
 
 // ClientConfig represents the standard client TLS config.

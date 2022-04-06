@@ -10,7 +10,7 @@ import (
 
 	"errors"
 
-	"github.com/influxdata/telegraf"
+	"github.com/fairyproof-io/telegraf"
 )
 
 const metricName = "dmcache"

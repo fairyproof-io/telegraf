@@ -8,9 +8,9 @@ import (
 
 	path "github.com/antchfx/xpath"
 
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/internal"
-	"github.com/influxdata/telegraf/metric"
+	"github.com/fairyproof-io/telegraf"
+	"github.com/fairyproof-io/telegraf/internal"
+	"github.com/fairyproof-io/telegraf/metric"
 )
 
 type dataNode interface{}

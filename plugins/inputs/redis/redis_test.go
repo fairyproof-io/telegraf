@@ -10,7 +10,7 @@ import (
 	"github.com/go-redis/redis"
 	"github.com/stretchr/testify/require"
 
-	"github.com/influxdata/telegraf/testutil"
+	"github.com/fairyproof-io/telegraf/testutil"
 )
 
 type testClient struct {

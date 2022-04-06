@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/influxdata/telegraf"
+	"github.com/fairyproof-io/telegraf"
 )
 
 type serializer struct {

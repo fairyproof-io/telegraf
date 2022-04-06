@@ -9,8 +9,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/influxdata/telegraf/config"
-	"github.com/influxdata/telegraf/internal/rotate"
+	"github.com/fairyproof-io/telegraf/config"
+	"github.com/fairyproof-io/telegraf/internal/rotate"
 	"github.com/influxdata/wlog"
 )
 

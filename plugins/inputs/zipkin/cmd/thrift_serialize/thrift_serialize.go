@@ -33,7 +33,7 @@ import (
 	"os"
 
 	"github.com/apache/thrift/lib/go/thrift"
-	"github.com/influxdata/telegraf/plugins/inputs/zipkin/codec/thrift/gen-go/zipkincore"
+	"github.com/fairyproof-io/telegraf/plugins/inputs/zipkin/codec/thrift/gen-go/zipkincore"
 )
 
 var (

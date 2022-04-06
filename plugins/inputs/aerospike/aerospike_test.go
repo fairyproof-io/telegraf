@@ -6,7 +6,7 @@ import (
 	as "github.com/aerospike/aerospike-client-go/v5"
 	"github.com/stretchr/testify/require"
 
-	"github.com/influxdata/telegraf/testutil"
+	"github.com/fairyproof-io/telegraf/testutil"
 )
 
 func TestAerospikeStatisticsIntegration(t *testing.T) {

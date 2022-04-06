@@ -35,10 +35,10 @@ import (
 	"github.com/gophercloud/gophercloud/openstack/networking/v2/ports"
 	"github.com/gophercloud/gophercloud/openstack/networking/v2/subnets"
 	"github.com/gophercloud/gophercloud/openstack/orchestration/v1/stacks"
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/internal/choice"
-	httpconfig "github.com/influxdata/telegraf/plugins/common/http"
-	"github.com/influxdata/telegraf/plugins/inputs"
+	"github.com/fairyproof-io/telegraf"
+	"github.com/fairyproof-io/telegraf/internal/choice"
+	httpconfig "github.com/fairyproof-io/telegraf/plugins/common/http"
+	"github.com/fairyproof-io/telegraf/plugins/inputs"
 )
 
 var (

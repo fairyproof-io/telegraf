@@ -12,8 +12,8 @@ import (
 	_ "github.com/jackc/pgx/v4/stdlib"      // pgx (postgres)
 	_ "github.com/snowflakedb/gosnowflake"  // snowflake
 
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/plugins/outputs"
+	"github.com/fairyproof-io/telegraf"
+	"github.com/fairyproof-io/telegraf/plugins/outputs"
 )
 
 type ConvertStruct struct {

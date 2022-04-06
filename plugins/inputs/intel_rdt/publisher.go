@@ -9,7 +9,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/influxdata/telegraf"
+	"github.com/fairyproof-io/telegraf"
 )
 
 type parsedCoresMeasurement struct {

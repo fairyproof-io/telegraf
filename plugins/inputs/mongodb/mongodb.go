@@ -10,9 +10,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/influxdata/telegraf"
-	tlsint "github.com/influxdata/telegraf/plugins/common/tls"
-	"github.com/influxdata/telegraf/plugins/inputs"
+	"github.com/fairyproof-io/telegraf"
+	tlsint "github.com/fairyproof-io/telegraf/plugins/common/tls"
+	"github.com/fairyproof-io/telegraf/plugins/inputs"
 	"go.mongodb.org/mongo-driver/mongo"
 	"go.mongodb.org/mongo-driver/mongo/options"
 	"go.mongodb.org/mongo-driver/mongo/readpref"

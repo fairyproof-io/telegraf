@@ -11,9 +11,9 @@ import (
 	"github.com/Azure/go-autorest/autorest/adal"
 	mssql "github.com/denisenkom/go-mssqldb"
 
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/filter"
-	"github.com/influxdata/telegraf/plugins/inputs"
+	"github.com/fairyproof-io/telegraf"
+	"github.com/fairyproof-io/telegraf/filter"
+	"github.com/fairyproof-io/telegraf/plugins/inputs"
 )
 
 // SQLServer struct

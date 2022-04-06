@@ -14,12 +14,12 @@ import (
 
 	"github.com/dimchansky/utfbom"
 	"github.com/influxdata/tail"
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/internal/globpath"
-	"github.com/influxdata/telegraf/plugins/common/encoding"
-	"github.com/influxdata/telegraf/plugins/inputs"
-	"github.com/influxdata/telegraf/plugins/parsers"
-	"github.com/influxdata/telegraf/plugins/parsers/csv"
+	"github.com/fairyproof-io/telegraf"
+	"github.com/fairyproof-io/telegraf/internal/globpath"
+	"github.com/fairyproof-io/telegraf/plugins/common/encoding"
+	"github.com/fairyproof-io/telegraf/plugins/inputs"
+	"github.com/fairyproof-io/telegraf/plugins/parsers"
+	"github.com/fairyproof-io/telegraf/plugins/parsers/csv"
 	"github.com/pborman/ansi"
 )
 
@@ -119,7 +119,7 @@ const sampleConfig = `
   ## Data format to consume.
   ## Each data format has its own unique set of configuration options, read
   ## more about them here:
-  ## https://github.com/influxdata/telegraf/blob/master/docs/DATA_FORMATS_INPUT.md
+  ## https://github.com/fairyproof-io/telegraf/blob/master/docs/DATA_FORMATS_INPUT.md
   data_format = "influx"
 
   ## Set the tag that will contain the path of the tailed file. If you don't want this tag, set it to an empty string.

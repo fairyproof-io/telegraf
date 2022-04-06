@@ -4,8 +4,8 @@
 package wireless
 
 import (
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/plugins/inputs"
+	"github.com/fairyproof-io/telegraf"
+	"github.com/fairyproof-io/telegraf/plugins/inputs"
 )
 
 func (w *Wireless) Init() error {

@@ -11,7 +11,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/influxdata/telegraf/testutil"
+	"github.com/fairyproof-io/telegraf/testutil"
 	ia "github.com/intel/iaevents"
 	"github.com/stretchr/testify/require"
 )

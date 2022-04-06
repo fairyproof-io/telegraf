@@ -3,8 +3,8 @@ package taglimit
 import (
 	"fmt"
 
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/plugins/processors"
+	"github.com/fairyproof-io/telegraf"
+	"github.com/fairyproof-io/telegraf/plugins/processors"
 )
 
 const sampleConfig = `

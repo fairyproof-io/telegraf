@@ -8,11 +8,11 @@ import (
 	"runtime"
 	"time"
 
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/config"
-	"github.com/influxdata/telegraf/internal"
-	"github.com/influxdata/telegraf/plugins/outputs"
-	"github.com/influxdata/telegraf/plugins/serializers"
+	"github.com/fairyproof-io/telegraf"
+	"github.com/fairyproof-io/telegraf/config"
+	"github.com/fairyproof-io/telegraf/internal"
+	"github.com/fairyproof-io/telegraf/plugins/outputs"
+	"github.com/fairyproof-io/telegraf/plugins/serializers"
 )
 
 const maxStderrBytes = 512
@@ -37,7 +37,7 @@ var sampleConfig = `
   ## Data format to output.
   ## Each data format has its own unique set of configuration options, read
   ## more about them here:
-  ## https://github.com/influxdata/telegraf/blob/master/docs/DATA_FORMATS_OUTPUT.md
+  ## https://github.com/fairyproof-io/telegraf/blob/master/docs/DATA_FORMATS_OUTPUT.md
   # data_format = "influx"
 `
 

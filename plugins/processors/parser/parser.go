@@ -1,10 +1,10 @@
 package parser
 
 import (
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/models"
-	"github.com/influxdata/telegraf/plugins/parsers"
-	"github.com/influxdata/telegraf/plugins/processors"
+	"github.com/fairyproof-io/telegraf"
+	"github.com/fairyproof-io/telegraf/models"
+	"github.com/fairyproof-io/telegraf/plugins/parsers"
+	"github.com/fairyproof-io/telegraf/plugins/processors"
 )
 
 type Parser struct {
@@ -30,7 +30,7 @@ var SampleConfig = `
   ## The dataformat to be read from files
   ## Each data format has its own unique set of configuration options, read
   ## more about them here:
-  ## https://github.com/influxdata/telegraf/blob/master/docs/DATA_FORMATS_INPUT.md
+  ## https://github.com/fairyproof-io/telegraf/blob/master/docs/DATA_FORMATS_INPUT.md
   data_format = "influx"
 `
 

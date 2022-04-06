@@ -4,8 +4,8 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/metric"
+	"github.com/fairyproof-io/telegraf"
+	"github.com/fairyproof-io/telegraf/metric"
 )
 
 func makeMetrics(p *V5Format) ([]telegraf.Metric, error) {

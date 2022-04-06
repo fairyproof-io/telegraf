@@ -13,8 +13,8 @@ import (
 	"github.com/jackc/pgx/v4"
 	"github.com/jackc/pgx/v4/stdlib"
 
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/config"
+	"github.com/fairyproof-io/telegraf"
+	"github.com/fairyproof-io/telegraf/config"
 )
 
 // pulled from lib/pq

@@ -6,7 +6,7 @@ import (
 	"os"
 	"path"
 
-	"github.com/influxdata/telegraf/plugins/common/tls"
+	"github.com/fairyproof-io/telegraf/plugins/common/tls"
 )
 
 type pki struct {

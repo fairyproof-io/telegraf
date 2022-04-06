@@ -6,9 +6,9 @@ import (
 
 	cpuUtil "github.com/shirou/gopsutil/v3/cpu"
 
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/plugins/inputs"
-	"github.com/influxdata/telegraf/plugins/inputs/system"
+	"github.com/fairyproof-io/telegraf"
+	"github.com/fairyproof-io/telegraf/plugins/inputs"
+	"github.com/fairyproof-io/telegraf/plugins/inputs/system"
 )
 
 type CPUStats struct {

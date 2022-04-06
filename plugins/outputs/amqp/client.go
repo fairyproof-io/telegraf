@@ -10,7 +10,7 @@ import (
 
 	"github.com/streadway/amqp"
 
-	"github.com/influxdata/telegraf"
+	"github.com/fairyproof-io/telegraf"
 )
 
 type ClientConfig struct {

@@ -10,7 +10,7 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/influxdata/telegraf"
+	"github.com/fairyproof-io/telegraf"
 )
 
 func (e *Execd) Gather(_ telegraf.Accumulator) error {

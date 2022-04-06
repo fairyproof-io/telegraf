@@ -8,7 +8,7 @@ import (
 
 	"go.starlark.net/starlark"
 
-	"github.com/influxdata/telegraf"
+	"github.com/fairyproof-io/telegraf"
 )
 
 // FieldDict is a starlark.Value for the metric fields.  It is heavily based on the

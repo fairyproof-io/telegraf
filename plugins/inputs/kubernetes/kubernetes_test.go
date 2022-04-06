@@ -2,12 +2,12 @@ package kubernetes
 
 import (
 	"fmt"
-	"github.com/influxdata/telegraf/filter"
+	"github.com/fairyproof-io/telegraf/filter"
 	"net/http"
 	"net/http/httptest"
 	"testing"
 
-	"github.com/influxdata/telegraf/testutil"
+	"github.com/fairyproof-io/telegraf/testutil"
 	"github.com/stretchr/testify/require"
 )
 

@@ -6,7 +6,7 @@ import (
 	"sort"
 	"time"
 
-	"github.com/influxdata/telegraf"
+	"github.com/fairyproof-io/telegraf"
 )
 
 type metric struct {

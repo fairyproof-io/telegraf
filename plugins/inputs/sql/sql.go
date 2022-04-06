@@ -11,17 +11,17 @@ import (
 	"sync"
 	"time"
 
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/config"
-	"github.com/influxdata/telegraf/filter"
-	"github.com/influxdata/telegraf/internal"
-	"github.com/influxdata/telegraf/internal/choice"
-	"github.com/influxdata/telegraf/plugins/inputs"
+	"github.com/fairyproof-io/telegraf"
+	"github.com/fairyproof-io/telegraf/config"
+	"github.com/fairyproof-io/telegraf/filter"
+	"github.com/fairyproof-io/telegraf/internal"
+	"github.com/fairyproof-io/telegraf/internal/choice"
+	"github.com/fairyproof-io/telegraf/plugins/inputs"
 )
 
 const sampleConfig = `
   ## Database Driver
-  ## See https://github.com/influxdata/telegraf/blob/master/docs/SQL_DRIVERS_INPUT.md for
+  ## See https://github.com/fairyproof-io/telegraf/blob/master/docs/SQL_DRIVERS_INPUT.md for
   ## a list of supported drivers.
   driver = "mysql"
 

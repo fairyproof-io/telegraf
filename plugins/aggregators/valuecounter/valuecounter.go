@@ -3,8 +3,8 @@ package valuecounter
 import (
 	"fmt"
 
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/plugins/aggregators"
+	"github.com/fairyproof-io/telegraf"
+	"github.com/fairyproof-io/telegraf/plugins/aggregators"
 )
 
 type aggregate struct {

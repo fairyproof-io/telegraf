@@ -12,16 +12,16 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/influxdata/telegraf"
-	internalaws "github.com/influxdata/telegraf/config/aws"
-	"github.com/influxdata/telegraf/internal"
-	"github.com/influxdata/telegraf/metric"
-	httpconfig "github.com/influxdata/telegraf/plugins/common/http"
-	"github.com/influxdata/telegraf/plugins/common/oauth"
-	"github.com/influxdata/telegraf/plugins/serializers"
-	"github.com/influxdata/telegraf/plugins/serializers/influx"
-	"github.com/influxdata/telegraf/plugins/serializers/json"
-	"github.com/influxdata/telegraf/testutil"
+	"github.com/fairyproof-io/telegraf"
+	internalaws "github.com/fairyproof-io/telegraf/config/aws"
+	"github.com/fairyproof-io/telegraf/internal"
+	"github.com/fairyproof-io/telegraf/metric"
+	httpconfig "github.com/fairyproof-io/telegraf/plugins/common/http"
+	"github.com/fairyproof-io/telegraf/plugins/common/oauth"
+	"github.com/fairyproof-io/telegraf/plugins/serializers"
+	"github.com/fairyproof-io/telegraf/plugins/serializers/influx"
+	"github.com/fairyproof-io/telegraf/plugins/serializers/json"
+	"github.com/fairyproof-io/telegraf/testutil"
 )
 
 func getMetric() telegraf.Metric {

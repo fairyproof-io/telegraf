@@ -5,9 +5,9 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/influxdata/telegraf"
-	telegrafConfig "github.com/influxdata/telegraf/config"
-	"github.com/influxdata/telegraf/plugins/aggregators"
+	"github.com/fairyproof-io/telegraf"
+	telegrafConfig "github.com/fairyproof-io/telegraf/config"
+	"github.com/fairyproof-io/telegraf/plugins/aggregators"
 )
 
 // bucketRightTag is the tag, which contains right bucket border

@@ -13,9 +13,9 @@ import (
 	"github.com/aws/aws-sdk-go-v2/service/cloudwatchlogs/types"
 	"github.com/stretchr/testify/require"
 
-	"github.com/influxdata/telegraf"
-	internalaws "github.com/influxdata/telegraf/config/aws"
-	"github.com/influxdata/telegraf/testutil"
+	"github.com/fairyproof-io/telegraf"
+	internalaws "github.com/fairyproof-io/telegraf/config/aws"
+	"github.com/fairyproof-io/telegraf/testutil"
 )
 
 type mockCloudWatchLogs struct {

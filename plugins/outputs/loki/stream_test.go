@@ -3,7 +3,7 @@ package loki
 import (
 	"testing"
 
-	"github.com/influxdata/telegraf"
+	"github.com/fairyproof-io/telegraf"
 	"github.com/stretchr/testify/require"
 )
 

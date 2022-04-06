@@ -2,14 +2,14 @@ package dropwizard
 
 import (
 	"fmt"
-	"github.com/influxdata/telegraf/testutil"
+	"github.com/fairyproof-io/telegraf/testutil"
 	"testing"
 	"time"
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/metric"
+	"github.com/fairyproof-io/telegraf"
+	"github.com/fairyproof-io/telegraf/metric"
 )
 
 var testTimeFunc = func() time.Time {

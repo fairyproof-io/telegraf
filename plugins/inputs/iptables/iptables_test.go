@@ -8,7 +8,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/influxdata/telegraf/testutil"
+	"github.com/fairyproof-io/telegraf/testutil"
 )
 
 func TestIptables_Gather(t *testing.T) {

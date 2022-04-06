@@ -14,12 +14,12 @@ import (
 	"time"
 
 	"github.com/golang/snappy"
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/config"
-	"github.com/influxdata/telegraf/internal/choice"
-	tlsint "github.com/influxdata/telegraf/plugins/common/tls"
-	"github.com/influxdata/telegraf/plugins/inputs"
-	"github.com/influxdata/telegraf/plugins/parsers"
+	"github.com/fairyproof-io/telegraf"
+	"github.com/fairyproof-io/telegraf/config"
+	"github.com/fairyproof-io/telegraf/internal/choice"
+	tlsint "github.com/fairyproof-io/telegraf/plugins/common/tls"
+	"github.com/fairyproof-io/telegraf/plugins/inputs"
+	"github.com/fairyproof-io/telegraf/plugins/parsers"
 )
 
 // defaultMaxBodySize is the default maximum request body size, in bytes.
@@ -114,7 +114,7 @@ const sampleConfig = `
   ## Data format to consume.
   ## Each data format has its own unique set of configuration options, read
   ## more about them here:
-  ## https://github.com/influxdata/telegraf/blob/master/docs/DATA_FORMATS_INPUT.md
+  ## https://github.com/fairyproof-io/telegraf/blob/master/docs/DATA_FORMATS_INPUT.md
   data_format = "influx"
 `
 

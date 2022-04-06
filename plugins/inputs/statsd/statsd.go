@@ -14,12 +14,12 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/config"
-	"github.com/influxdata/telegraf/internal"
-	"github.com/influxdata/telegraf/plugins/inputs"
-	"github.com/influxdata/telegraf/plugins/parsers/graphite"
-	"github.com/influxdata/telegraf/selfstat"
+	"github.com/fairyproof-io/telegraf"
+	"github.com/fairyproof-io/telegraf/config"
+	"github.com/fairyproof-io/telegraf/internal"
+	"github.com/fairyproof-io/telegraf/plugins/inputs"
+	"github.com/fairyproof-io/telegraf/plugins/parsers/graphite"
+	"github.com/fairyproof-io/telegraf/selfstat"
 )
 
 const (
@@ -271,7 +271,7 @@ const sampleConfig = `
   datadog_distributions = false
 
   ## Statsd data translation templates, more info can be read here:
-  ## https://github.com/influxdata/telegraf/blob/master/docs/TEMPLATE_PATTERN.md
+  ## https://github.com/fairyproof-io/telegraf/blob/master/docs/TEMPLATE_PATTERN.md
   # templates = [
   #     "cpu.* measurement*"
   # ]

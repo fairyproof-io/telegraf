@@ -7,9 +7,9 @@ import (
 
 	ldap "github.com/go-ldap/ldap/v3"
 
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/plugins/common/tls"
-	"github.com/influxdata/telegraf/plugins/inputs"
+	"github.com/fairyproof-io/telegraf"
+	"github.com/fairyproof-io/telegraf/plugins/common/tls"
+	"github.com/fairyproof-io/telegraf/plugins/inputs"
 )
 
 type Openldap struct {

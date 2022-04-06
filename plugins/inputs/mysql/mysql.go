@@ -10,11 +10,11 @@ import (
 
 	"github.com/go-sql-driver/mysql"
 
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/plugins/common/tls"
-	"github.com/influxdata/telegraf/plugins/inputs"
-	v1 "github.com/influxdata/telegraf/plugins/inputs/mysql/v1"
-	v2 "github.com/influxdata/telegraf/plugins/inputs/mysql/v2"
+	"github.com/fairyproof-io/telegraf"
+	"github.com/fairyproof-io/telegraf/plugins/common/tls"
+	"github.com/fairyproof-io/telegraf/plugins/inputs"
+	v1 "github.com/fairyproof-io/telegraf/plugins/inputs/mysql/v1"
+	v2 "github.com/fairyproof-io/telegraf/plugins/inputs/mysql/v2"
 )
 
 type Mysql struct {

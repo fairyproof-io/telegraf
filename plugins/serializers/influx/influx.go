@@ -10,7 +10,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/influxdata/telegraf"
+	"github.com/fairyproof-io/telegraf"
 )
 
 const MaxInt64 = int64(^uint64(0) >> 1)

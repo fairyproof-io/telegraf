@@ -7,8 +7,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/influxdata/telegraf/config"
-	"github.com/influxdata/telegraf/testutil"
+	"github.com/fairyproof-io/telegraf/config"
+	"github.com/fairyproof-io/telegraf/testutil"
 )
 
 func TestIpset(t *testing.T) {

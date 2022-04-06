@@ -10,10 +10,10 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/config"
-	framing "github.com/influxdata/telegraf/internal/syslog"
-	"github.com/influxdata/telegraf/testutil"
+	"github.com/fairyproof-io/telegraf"
+	"github.com/fairyproof-io/telegraf/config"
+	framing "github.com/fairyproof-io/telegraf/internal/syslog"
+	"github.com/fairyproof-io/telegraf/testutil"
 )
 
 func getTestCasesForNonTransparent() []testCaseStream {

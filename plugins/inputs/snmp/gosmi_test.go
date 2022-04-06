@@ -9,8 +9,8 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/influxdata/telegraf/internal/snmp"
-	"github.com/influxdata/telegraf/testutil"
+	"github.com/fairyproof-io/telegraf/internal/snmp"
+	"github.com/fairyproof-io/telegraf/testutil"
 )
 
 func getGosmiTr(t *testing.T) Translator {

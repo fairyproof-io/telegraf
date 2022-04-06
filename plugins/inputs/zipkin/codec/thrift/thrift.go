@@ -9,8 +9,8 @@ import (
 	"time"
 
 	"github.com/apache/thrift/lib/go/thrift"
-	"github.com/influxdata/telegraf/plugins/inputs/zipkin/codec"
-	"github.com/influxdata/telegraf/plugins/inputs/zipkin/codec/thrift/gen-go/zipkincore"
+	"github.com/fairyproof-io/telegraf/plugins/inputs/zipkin/codec"
+	"github.com/fairyproof-io/telegraf/plugins/inputs/zipkin/codec/thrift/gen-go/zipkincore"
 )
 
 // UnmarshalThrift converts raw bytes in thrift format to a slice of spans

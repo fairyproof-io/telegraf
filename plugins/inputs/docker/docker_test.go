@@ -14,9 +14,9 @@ import (
 	"github.com/docker/docker/api/types/swarm"
 	"github.com/stretchr/testify/require"
 
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/internal/choice"
-	"github.com/influxdata/telegraf/testutil"
+	"github.com/fairyproof-io/telegraf"
+	"github.com/fairyproof-io/telegraf/internal/choice"
+	"github.com/fairyproof-io/telegraf/testutil"
 )
 
 type MockClient struct {

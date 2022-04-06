@@ -7,9 +7,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/plugins/parsers/influx"
-	"github.com/influxdata/telegraf/testutil"
+	"github.com/fairyproof-io/telegraf"
+	"github.com/fairyproof-io/telegraf/plugins/parsers/influx"
+	"github.com/fairyproof-io/telegraf/testutil"
 	"github.com/influxdata/toml"
 
 	"github.com/stretchr/testify/require"

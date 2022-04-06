@@ -5,9 +5,9 @@ import (
 	"math"
 	"reflect"
 
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/filter"
-	"github.com/influxdata/telegraf/plugins/processors"
+	"github.com/fairyproof-io/telegraf"
+	"github.com/fairyproof-io/telegraf/filter"
+	"github.com/fairyproof-io/telegraf/plugins/processors"
 	"gonum.org/v1/gonum/stat/distuv"
 )
 

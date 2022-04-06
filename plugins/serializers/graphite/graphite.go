@@ -9,8 +9,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/filter"
+	"github.com/fairyproof-io/telegraf"
+	"github.com/fairyproof-io/telegraf/filter"
 )
 
 const DefaultTemplate = "host.tags.measurement.field"

@@ -11,8 +11,8 @@ import (
 	"github.com/signalfx/golib/v3/event"
 	"github.com/signalfx/golib/v3/sfxclient"
 
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/plugins/outputs"
+	"github.com/fairyproof-io/telegraf"
+	"github.com/fairyproof-io/telegraf/plugins/outputs"
 )
 
 //init initializes the plugin context

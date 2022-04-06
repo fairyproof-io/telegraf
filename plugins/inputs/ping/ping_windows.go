@@ -10,7 +10,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/influxdata/telegraf"
+	"github.com/fairyproof-io/telegraf"
 )
 
 func (p *Ping) pingToURL(u string, acc telegraf.Accumulator) {

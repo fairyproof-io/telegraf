@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"log" //nolint
 
-	"github.com/influxdata/telegraf"
+	"github.com/fairyproof-io/telegraf"
 )
 
 var _ telegraf.Logger = &CaptureLogger{}

@@ -6,7 +6,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/influxdata/telegraf/testutil"
+	"github.com/fairyproof-io/telegraf/testutil"
 )
 
 func defaultTags6_3() map[string]string {

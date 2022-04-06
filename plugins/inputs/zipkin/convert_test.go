@@ -5,9 +5,9 @@ import (
 	"time"
 
 	"github.com/google/go-cmp/cmp"
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/plugins/inputs/zipkin/trace"
-	"github.com/influxdata/telegraf/testutil"
+	"github.com/fairyproof-io/telegraf"
+	"github.com/fairyproof-io/telegraf/plugins/inputs/zipkin/trace"
+	"github.com/fairyproof-io/telegraf/testutil"
 )
 
 func TestLineProtocolConverter_Record(t *testing.T) {

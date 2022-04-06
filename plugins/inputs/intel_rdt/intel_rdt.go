@@ -19,9 +19,9 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/internal/choice"
-	"github.com/influxdata/telegraf/plugins/inputs"
+	"github.com/fairyproof-io/telegraf"
+	"github.com/fairyproof-io/telegraf/internal/choice"
+	"github.com/fairyproof-io/telegraf/plugins/inputs"
 )
 
 const (

@@ -7,9 +7,9 @@ import (
 	"cloud.google.com/go/pubsub"
 	"github.com/stretchr/testify/require"
 
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/plugins/parsers"
-	"github.com/influxdata/telegraf/testutil"
+	"github.com/fairyproof-io/telegraf"
+	"github.com/fairyproof-io/telegraf/plugins/parsers"
+	"github.com/fairyproof-io/telegraf/testutil"
 )
 
 func TestPubSub_WriteSingle(t *testing.T) {

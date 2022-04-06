@@ -4,7 +4,7 @@ import (
 	"context"
 	"strings"
 
-	"github.com/influxdata/telegraf"
+	"github.com/fairyproof-io/telegraf"
 	corev1 "k8s.io/api/core/v1"
 )
 

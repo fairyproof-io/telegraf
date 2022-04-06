@@ -3,7 +3,7 @@ package ethtool
 import (
 	"net"
 
-	"github.com/influxdata/telegraf"
+	"github.com/fairyproof-io/telegraf"
 )
 
 type Command interface {

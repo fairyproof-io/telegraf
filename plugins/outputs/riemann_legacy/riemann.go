@@ -8,11 +8,11 @@ import (
 
 	"github.com/amir/raidman"
 
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/plugins/outputs"
+	"github.com/fairyproof-io/telegraf"
+	"github.com/fairyproof-io/telegraf/plugins/outputs"
 )
 
-const deprecationMsg = "Error: this Riemann output plugin will be deprecated in a future release, see https://github.com/influxdata/telegraf/issues/1878 for more details & discussion."
+const deprecationMsg = "Error: this Riemann output plugin will be deprecated in a future release, see https://github.com/fairyproof-io/telegraf/issues/1878 for more details & discussion."
 
 type Riemann struct {
 	URL       string          `toml:"url"`

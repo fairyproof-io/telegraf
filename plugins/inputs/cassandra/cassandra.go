@@ -9,8 +9,8 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/plugins/inputs"
+	"github.com/fairyproof-io/telegraf"
+	"github.com/fairyproof-io/telegraf/plugins/inputs"
 )
 
 type JolokiaClient interface {
@@ -170,7 +170,7 @@ func (c *Cassandra) SampleConfig() string {
   ## DEPRECATED: The cassandra plugin has been deprecated.  Please use the
   ## jolokia2 plugin instead.
   ##
-  ## see https://github.com/influxdata/telegraf/tree/master/plugins/inputs/jolokia2
+  ## see https://github.com/fairyproof-io/telegraf/tree/master/plugins/inputs/jolokia2
 
   context = "/jolokia/read"
   ## List of cassandra servers exposing jolokia read service
@@ -258,7 +258,7 @@ func parseServerTokens(server string) map[string]string {
 func (c *Cassandra) Start(_ telegraf.Accumulator) error {
 	c.Log.Warn("DEPRECATED: The cassandra plugin has been deprecated. " +
 		"Please use the jolokia2 plugin instead. " +
-		"https://github.com/influxdata/telegraf/tree/master/plugins/inputs/jolokia2")
+		"https://github.com/fairyproof-io/telegraf/tree/master/plugins/inputs/jolokia2")
 	return nil
 }
 

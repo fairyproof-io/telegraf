@@ -3,9 +3,9 @@ package starlark
 import (
 	"fmt"
 
-	"github.com/influxdata/telegraf"
-	common "github.com/influxdata/telegraf/plugins/common/starlark"
-	"github.com/influxdata/telegraf/plugins/processors"
+	"github.com/fairyproof-io/telegraf"
+	common "github.com/fairyproof-io/telegraf/plugins/common/starlark"
+	"github.com/fairyproof-io/telegraf/plugins/processors"
 	"go.starlark.net/starlark"
 )
 

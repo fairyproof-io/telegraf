@@ -9,9 +9,9 @@ import (
 
 	apcupsdClient "github.com/mdlayher/apcupsd"
 
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/config"
-	"github.com/influxdata/telegraf/plugins/inputs"
+	"github.com/fairyproof-io/telegraf"
+	"github.com/fairyproof-io/telegraf/config"
+	"github.com/fairyproof-io/telegraf/plugins/inputs"
 )
 
 const defaultAddress = "tcp://127.0.0.1:3551"

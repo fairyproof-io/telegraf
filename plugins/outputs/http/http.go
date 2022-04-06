@@ -13,12 +13,12 @@ import (
 
 	awsV2 "github.com/aws/aws-sdk-go-v2/aws"
 	"github.com/aws/aws-sdk-go-v2/aws/signer/v4"
-	"github.com/influxdata/telegraf"
-	internalaws "github.com/influxdata/telegraf/config/aws"
-	"github.com/influxdata/telegraf/internal"
-	httpconfig "github.com/influxdata/telegraf/plugins/common/http"
-	"github.com/influxdata/telegraf/plugins/outputs"
-	"github.com/influxdata/telegraf/plugins/serializers"
+	"github.com/fairyproof-io/telegraf"
+	internalaws "github.com/fairyproof-io/telegraf/config/aws"
+	"github.com/fairyproof-io/telegraf/internal"
+	httpconfig "github.com/fairyproof-io/telegraf/plugins/common/http"
+	"github.com/fairyproof-io/telegraf/plugins/outputs"
+	"github.com/fairyproof-io/telegraf/plugins/serializers"
 )
 
 const (
@@ -66,7 +66,7 @@ var sampleConfig = `
   ## Data format to output.
   ## Each data format has it's own unique set of configuration options, read
   ## more about them here:
-  ## https://github.com/influxdata/telegraf/blob/master/docs/DATA_FORMATS_OUTPUT.md
+  ## https://github.com/fairyproof-io/telegraf/blob/master/docs/DATA_FORMATS_OUTPUT.md
   # data_format = "influx"
 
   ## Use batch serialization format (default) instead of line based format.

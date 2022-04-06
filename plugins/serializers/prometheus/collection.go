@@ -10,7 +10,7 @@ import (
 	dto "github.com/prometheus/client_model/go"
 	"google.golang.org/protobuf/proto"
 
-	"github.com/influxdata/telegraf"
+	"github.com/fairyproof-io/telegraf"
 )
 
 const helpString = "Telegraf collected metric"

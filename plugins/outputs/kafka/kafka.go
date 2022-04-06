@@ -9,11 +9,11 @@ import (
 	"github.com/Shopify/sarama"
 	"github.com/gofrs/uuid"
 
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/plugins/common/kafka"
-	"github.com/influxdata/telegraf/plugins/common/proxy"
-	"github.com/influxdata/telegraf/plugins/outputs"
-	"github.com/influxdata/telegraf/plugins/serializers"
+	"github.com/fairyproof-io/telegraf"
+	"github.com/fairyproof-io/telegraf/plugins/common/kafka"
+	"github.com/fairyproof-io/telegraf/plugins/common/proxy"
+	"github.com/fairyproof-io/telegraf/plugins/outputs"
+	"github.com/fairyproof-io/telegraf/plugins/serializers"
 )
 
 var ValidTopicSuffixMethods = []string{
@@ -228,7 +228,7 @@ var sampleConfig = `
   ## Data format to output.
   ## Each data format has its own unique set of configuration options, read
   ## more about them here:
-  ## https://github.com/influxdata/telegraf/blob/master/docs/DATA_FORMATS_OUTPUT.md
+  ## https://github.com/fairyproof-io/telegraf/blob/master/docs/DATA_FORMATS_OUTPUT.md
   # data_format = "influx"
 `
 

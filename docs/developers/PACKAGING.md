@@ -62,5 +62,5 @@ From within the container:
 From the host system, copy the build artifacts out of the container:
 
 ```shell
-docker cp romantic_ptolemy:/go/src/github.com/influxdata/telegraf/build/telegraf-1.10.2-1.x86_64.rpm .
+docker cp romantic_ptolemy:/go/src/github.com/fairyproof-io/telegraf/build/telegraf-1.10.2-1.x86_64.rpm .
 ```

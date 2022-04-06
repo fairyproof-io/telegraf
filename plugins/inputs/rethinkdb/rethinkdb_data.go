@@ -4,7 +4,7 @@ import (
 	"reflect"
 	"time"
 
-	"github.com/influxdata/telegraf"
+	"github.com/fairyproof-io/telegraf"
 )
 
 type serverStatus struct {

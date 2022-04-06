@@ -7,10 +7,10 @@ import (
 	"path/filepath"
 
 	"github.com/dimchansky/utfbom"
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/internal/globpath"
-	"github.com/influxdata/telegraf/plugins/common/encoding"
-	"github.com/influxdata/telegraf/plugins/inputs"
+	"github.com/fairyproof-io/telegraf"
+	"github.com/fairyproof-io/telegraf/internal/globpath"
+	"github.com/fairyproof-io/telegraf/plugins/common/encoding"
+	"github.com/fairyproof-io/telegraf/plugins/inputs"
 )
 
 type File struct {
@@ -48,7 +48,7 @@ const sampleConfig = `
   ## The dataformat to be read from files
   ## Each data format has its own unique set of configuration options, read
   ## more about them here:
-  ## https://github.com/influxdata/telegraf/blob/master/docs/DATA_FORMATS_INPUT.md
+  ## https://github.com/fairyproof-io/telegraf/blob/master/docs/DATA_FORMATS_INPUT.md
   data_format = "influx"
 `
 

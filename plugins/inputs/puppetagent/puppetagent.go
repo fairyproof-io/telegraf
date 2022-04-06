@@ -8,8 +8,8 @@ import (
 
 	"gopkg.in/yaml.v2"
 
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/plugins/inputs"
+	"github.com/fairyproof-io/telegraf"
+	"github.com/fairyproof-io/telegraf/plugins/inputs"
 )
 
 // PuppetAgent is a PuppetAgent plugin

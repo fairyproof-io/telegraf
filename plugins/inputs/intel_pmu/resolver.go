@@ -8,7 +8,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/influxdata/telegraf"
+	"github.com/fairyproof-io/telegraf"
 	ia "github.com/intel/iaevents"
 )
 

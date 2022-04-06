@@ -14,13 +14,13 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/influxdata/telegraf"
+	"github.com/fairyproof-io/telegraf"
 	"github.com/vmware/govmomi/object"
 	"github.com/vmware/govmomi/performance"
 	"github.com/vmware/govmomi/vim25/mo"
 	"github.com/vmware/govmomi/vim25/types"
 
-	"github.com/influxdata/telegraf/filter"
+	"github.com/fairyproof-io/telegraf/filter"
 )
 
 var isolateLUN = regexp.MustCompile(`.*/([^/]+)/?$`)

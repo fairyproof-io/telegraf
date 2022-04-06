@@ -5,14 +5,14 @@ orbs:
 
 executors:
   go-1_17:
-    working_directory: '/go/src/github.com/influxdata/telegraf'
+    working_directory: '/go/src/github.com/fairyproof-io/telegraf'
     resource_class: large
     docker:
       - image: 'quay.io/influxdb/telegraf-ci:1.17.7'
     environment:
       GOFLAGS: -p=4
   mac:
-    working_directory: '~/go/src/github.com/influxdata/telegraf'
+    working_directory: '~/go/src/github.com/fairyproof-io/telegraf'
     resource_class: medium
     macos:
       xcode: 13.2.0
@@ -97,7 +97,7 @@ commands:
                 name: 'Saving cache'
                 key: linux-go-<< parameters.cache_version >>-{{ checksum "go.sum" }}
                 paths:
-                  - '~/go/src/github.com/influxdata/telegraf/gotestsum'
+                  - '~/go/src/github.com/fairyproof-io/telegraf/gotestsum'
       - when:
           condition:
             equal: [ darwin, << parameters.os >> ]
@@ -106,7 +106,7 @@ commands:
                 name: 'Saving cache'
                 key: darwin-go-<< parameters.cache_version >>-{{ checksum "go.sum" }}
                 paths:
-                  - '/go/src/github.com/influxdata/telegraf/gotestsum'
+                  - '/go/src/github.com/fairyproof-io/telegraf/gotestsum'
                   - '/usr/local/Cellar/go'
                   - '/usr/local/bin/go'
                   - '/usr/local/bin/gofmt'

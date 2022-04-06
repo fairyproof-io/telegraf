@@ -13,9 +13,9 @@ import (
 	"strconv"
 	"syscall"
 
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/plugins/inputs"
-	"github.com/influxdata/telegraf/plugins/inputs/linux_sysctl_fs"
+	"github.com/fairyproof-io/telegraf"
+	"github.com/fairyproof-io/telegraf/plugins/inputs"
+	"github.com/fairyproof-io/telegraf/plugins/inputs/linux_sysctl_fs"
 )
 
 type Processes struct {

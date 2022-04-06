@@ -1,6 +1,6 @@
 package aggregators
 
-import "github.com/influxdata/telegraf"
+import "github.com/fairyproof-io/telegraf"
 
 // Deprecations lists the deprecated plugins
 var Deprecations = map[string]telegraf.DeprecationInfo{}

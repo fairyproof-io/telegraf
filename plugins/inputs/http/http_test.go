@@ -12,13 +12,13 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/influxdata/telegraf"
-	httpconfig "github.com/influxdata/telegraf/plugins/common/http"
-	"github.com/influxdata/telegraf/plugins/common/oauth"
-	httpplugin "github.com/influxdata/telegraf/plugins/inputs/http"
-	"github.com/influxdata/telegraf/plugins/parsers"
-	"github.com/influxdata/telegraf/plugins/parsers/csv"
-	"github.com/influxdata/telegraf/testutil"
+	"github.com/fairyproof-io/telegraf"
+	httpconfig "github.com/fairyproof-io/telegraf/plugins/common/http"
+	"github.com/fairyproof-io/telegraf/plugins/common/oauth"
+	httpplugin "github.com/fairyproof-io/telegraf/plugins/inputs/http"
+	"github.com/fairyproof-io/telegraf/plugins/parsers"
+	"github.com/fairyproof-io/telegraf/plugins/parsers/csv"
+	"github.com/fairyproof-io/telegraf/testutil"
 )
 
 func TestHTTPWithJSONFormat(t *testing.T) {

@@ -11,7 +11,7 @@ import (
 	"github.com/stretchr/testify/mock"
 	"github.com/stretchr/testify/require"
 
-	"github.com/influxdata/telegraf/plugins/inputs/dpdk/mocks"
+	"github.com/fairyproof-io/telegraf/plugins/inputs/dpdk/mocks"
 )
 
 func Test_readMaxOutputLen(t *testing.T) {

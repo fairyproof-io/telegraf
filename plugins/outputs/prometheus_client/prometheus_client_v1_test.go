@@ -12,9 +12,9 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/influxdata/telegraf"
-	inputs "github.com/influxdata/telegraf/plugins/inputs/prometheus"
-	"github.com/influxdata/telegraf/testutil"
+	"github.com/fairyproof-io/telegraf"
+	inputs "github.com/fairyproof-io/telegraf/plugins/inputs/prometheus"
+	"github.com/fairyproof-io/telegraf/testutil"
 )
 
 func TestMetricVersion1(t *testing.T) {

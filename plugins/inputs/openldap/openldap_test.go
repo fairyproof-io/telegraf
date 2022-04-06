@@ -7,7 +7,7 @@ import (
 	"github.com/go-ldap/ldap/v3"
 	"github.com/stretchr/testify/require"
 
-	"github.com/influxdata/telegraf/testutil"
+	"github.com/fairyproof-io/telegraf/testutil"
 )
 
 func TestOpenldapMockResult(t *testing.T) {

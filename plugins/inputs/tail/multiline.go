@@ -7,7 +7,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/influxdata/telegraf/config"
+	"github.com/fairyproof-io/telegraf/config"
 )
 
 // Indicates relation to the multiline event: previous or next

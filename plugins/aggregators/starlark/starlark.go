@@ -1,9 +1,9 @@
 package starlark
 
 import (
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/plugins/aggregators"
-	common "github.com/influxdata/telegraf/plugins/common/starlark"
+	"github.com/fairyproof-io/telegraf"
+	"github.com/fairyproof-io/telegraf/plugins/aggregators"
+	common "github.com/fairyproof-io/telegraf/plugins/common/starlark"
 	"go.starlark.net/starlark"
 )
 

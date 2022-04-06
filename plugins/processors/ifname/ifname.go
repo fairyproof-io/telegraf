@@ -7,12 +7,12 @@ import (
 	"sync"
 	"time"
 
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/config"
-	"github.com/influxdata/telegraf/internal/snmp"
-	"github.com/influxdata/telegraf/plugins/common/parallel"
-	si "github.com/influxdata/telegraf/plugins/inputs/snmp"
-	"github.com/influxdata/telegraf/plugins/processors"
+	"github.com/fairyproof-io/telegraf"
+	"github.com/fairyproof-io/telegraf/config"
+	"github.com/fairyproof-io/telegraf/internal/snmp"
+	"github.com/fairyproof-io/telegraf/plugins/common/parallel"
+	si "github.com/fairyproof-io/telegraf/plugins/inputs/snmp"
+	"github.com/fairyproof-io/telegraf/plugins/processors"
 )
 
 var sampleConfig = `

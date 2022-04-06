@@ -1,4 +1,4 @@
-module github.com/influxdata/telegraf
+module github.com/fairyproof-io/telegraf
 
 go 1.17
 
@@ -54,6 +54,7 @@ require (
 	github.com/dynatrace-oss/dynatrace-metric-utils-go v0.3.0
 	github.com/eclipse/paho.mqtt.golang v1.3.5
 	github.com/fatih/color v1.10.0
+	github.com/g8rswimmer/go-twitter/v2 v2.0.0
 	github.com/ghodss/yaml v1.0.1-0.20190212211648-25d852aebe32
 	github.com/go-ldap/ldap/v3 v3.4.1
 	github.com/go-logfmt/logfmt v0.5.0
@@ -137,6 +138,7 @@ require (
 	github.com/wavefronthq/wavefront-sdk-go v0.9.10
 	github.com/wvanbergen/kafka v0.0.0-20171203153745-e2edea948ddf
 	github.com/xdg/scram v1.0.3
+	github.com/yanyiwu/gojieba v1.1.2
 	go.mongodb.org/mongo-driver v1.8.3
 	go.opentelemetry.io/collector/model v0.44.0
 	go.opentelemetry.io/otel/exporters/otlp/otlpmetric/otlpmetricgrpc v0.27.0

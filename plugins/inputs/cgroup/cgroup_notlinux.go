@@ -4,7 +4,7 @@
 package cgroup
 
 import (
-	"github.com/influxdata/telegraf"
+	"github.com/fairyproof-io/telegraf"
 )
 
 func (g *CGroup) Gather(acc telegraf.Accumulator) error {

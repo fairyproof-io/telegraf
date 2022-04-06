@@ -1,6 +1,6 @@
 package parallel
 
-import "github.com/influxdata/telegraf"
+import "github.com/fairyproof-io/telegraf"
 
 type Parallel interface {
 	Enqueue(telegraf.Metric)

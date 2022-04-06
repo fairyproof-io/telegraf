@@ -10,7 +10,7 @@ import (
 	"time"
 
 	"github.com/hashicorp/consul/api"
-	"github.com/influxdata/telegraf/config"
+	"github.com/fairyproof-io/telegraf/config"
 )
 
 type ConsulConfig struct {

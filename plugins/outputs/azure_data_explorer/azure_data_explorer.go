@@ -13,11 +13,11 @@ import (
 	"github.com/Azure/azure-kusto-go/kusto/ingest"
 	"github.com/Azure/azure-kusto-go/kusto/unsafe"
 	"github.com/Azure/go-autorest/autorest/azure/auth"
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/config"
-	"github.com/influxdata/telegraf/plugins/outputs"
-	"github.com/influxdata/telegraf/plugins/serializers"
-	"github.com/influxdata/telegraf/plugins/serializers/json"
+	"github.com/fairyproof-io/telegraf"
+	"github.com/fairyproof-io/telegraf/config"
+	"github.com/fairyproof-io/telegraf/plugins/outputs"
+	"github.com/fairyproof-io/telegraf/plugins/serializers"
+	"github.com/fairyproof-io/telegraf/plugins/serializers/json"
 )
 
 type AzureDataExplorer struct {

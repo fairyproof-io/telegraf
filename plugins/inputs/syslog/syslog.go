@@ -18,11 +18,11 @@ import (
 	"github.com/influxdata/go-syslog/v3/octetcounting"
 	"github.com/influxdata/go-syslog/v3/rfc3164"
 	"github.com/influxdata/go-syslog/v3/rfc5424"
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/config"
-	framing "github.com/influxdata/telegraf/internal/syslog"
-	tlsConfig "github.com/influxdata/telegraf/plugins/common/tls"
-	"github.com/influxdata/telegraf/plugins/inputs"
+	"github.com/fairyproof-io/telegraf"
+	"github.com/fairyproof-io/telegraf/config"
+	framing "github.com/fairyproof-io/telegraf/internal/syslog"
+	tlsConfig "github.com/fairyproof-io/telegraf/plugins/common/tls"
+	"github.com/fairyproof-io/telegraf/plugins/inputs"
 )
 
 type syslogRFC string

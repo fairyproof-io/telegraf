@@ -4,8 +4,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/influxdata/telegraf"
-	serializer "github.com/influxdata/telegraf/plugins/serializers/prometheus"
+	"github.com/fairyproof-io/telegraf"
+	serializer "github.com/fairyproof-io/telegraf/plugins/serializers/prometheus"
 	"github.com/prometheus/client_golang/prometheus"
 	dto "github.com/prometheus/client_model/go"
 )

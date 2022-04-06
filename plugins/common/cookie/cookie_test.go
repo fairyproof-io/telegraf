@@ -12,8 +12,8 @@ import (
 
 	clockutil "github.com/benbjohnson/clock"
 	"github.com/google/go-cmp/cmp"
-	"github.com/influxdata/telegraf/config"
-	"github.com/influxdata/telegraf/testutil"
+	"github.com/fairyproof-io/telegraf/config"
+	"github.com/fairyproof-io/telegraf/testutil"
 	"github.com/stretchr/testify/require"
 )
 

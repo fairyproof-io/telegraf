@@ -9,10 +9,10 @@ import (
 	"github.com/stretchr/testify/require"
 
 	"github.com/influxdata/go-syslog/v3/nontransparent"
-	"github.com/influxdata/telegraf"
-	framing "github.com/influxdata/telegraf/internal/syslog"
-	"github.com/influxdata/telegraf/metric"
-	"github.com/influxdata/telegraf/testutil"
+	"github.com/fairyproof-io/telegraf"
+	framing "github.com/fairyproof-io/telegraf/internal/syslog"
+	"github.com/fairyproof-io/telegraf/metric"
+	"github.com/fairyproof-io/telegraf/testutil"
 )
 
 func TestGetSyslogMessageWithFramingOctectCounting(t *testing.T) {

@@ -7,7 +7,7 @@ import (
 
 	"go.starlark.net/starlark"
 
-	"github.com/influxdata/telegraf"
+	"github.com/fairyproof-io/telegraf"
 )
 
 // TagDict is a starlark.Value for the metric tags.  It is heavily based on the

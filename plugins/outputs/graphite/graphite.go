@@ -8,10 +8,10 @@ import (
 	"net"
 	"time"
 
-	"github.com/influxdata/telegraf"
-	tlsint "github.com/influxdata/telegraf/plugins/common/tls"
-	"github.com/influxdata/telegraf/plugins/outputs"
-	"github.com/influxdata/telegraf/plugins/serializers"
+	"github.com/fairyproof-io/telegraf"
+	tlsint "github.com/fairyproof-io/telegraf/plugins/common/tls"
+	"github.com/fairyproof-io/telegraf/plugins/outputs"
+	"github.com/fairyproof-io/telegraf/plugins/serializers"
 )
 
 type Graphite struct {
@@ -38,7 +38,7 @@ var sampleConfig = `
   ## Prefix metrics name
   prefix = ""
   ## Graphite output template
-  ## see https://github.com/influxdata/telegraf/blob/master/docs/DATA_FORMATS_OUTPUT.md
+  ## see https://github.com/fairyproof-io/telegraf/blob/master/docs/DATA_FORMATS_OUTPUT.md
   template = "host.tags.measurement.field"
 
   ## Enable Graphite tags support

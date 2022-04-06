@@ -2,7 +2,7 @@ package kafka
 
 import (
 	"github.com/Shopify/sarama"
-	"github.com/influxdata/telegraf/plugins/common/tls"
+	"github.com/fairyproof-io/telegraf/plugins/common/tls"
 )
 
 // ReadConfig for kafka clients meaning to read from Kafka.

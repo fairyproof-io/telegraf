@@ -12,9 +12,9 @@ import (
 	"github.com/pkg/errors"
 	ethtoolLib "github.com/safchain/ethtool"
 
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/filter"
-	"github.com/influxdata/telegraf/plugins/inputs"
+	"github.com/fairyproof-io/telegraf"
+	"github.com/fairyproof-io/telegraf/filter"
+	"github.com/fairyproof-io/telegraf/plugins/inputs"
 )
 
 type CommandEthtool struct {

@@ -11,7 +11,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/influxdata/telegraf"
+	"github.com/fairyproof-io/telegraf"
 )
 
 const (

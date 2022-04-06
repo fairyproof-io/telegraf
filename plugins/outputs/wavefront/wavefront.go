@@ -7,8 +7,8 @@ import (
 
 	wavefront "github.com/wavefronthq/wavefront-sdk-go/senders"
 
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/plugins/outputs"
+	"github.com/fairyproof-io/telegraf"
+	"github.com/fairyproof-io/telegraf/plugins/outputs"
 )
 
 const maxTagLength = 254

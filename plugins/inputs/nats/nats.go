@@ -13,9 +13,9 @@ import (
 
 	gnatsd "github.com/nats-io/nats-server/v2/server"
 
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/config"
-	"github.com/influxdata/telegraf/plugins/inputs"
+	"github.com/fairyproof-io/telegraf"
+	"github.com/fairyproof-io/telegraf/config"
+	"github.com/fairyproof-io/telegraf/plugins/inputs"
 )
 
 type Nats struct {

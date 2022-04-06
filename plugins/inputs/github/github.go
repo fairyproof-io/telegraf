@@ -11,10 +11,10 @@ import (
 	githubLib "github.com/google/go-github/v32/github"
 	"golang.org/x/oauth2"
 
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/config"
-	"github.com/influxdata/telegraf/plugins/inputs"
-	"github.com/influxdata/telegraf/selfstat"
+	"github.com/fairyproof-io/telegraf"
+	"github.com/fairyproof-io/telegraf/config"
+	"github.com/fairyproof-io/telegraf/plugins/inputs"
+	"github.com/fairyproof-io/telegraf/selfstat"
 )
 
 // GitHub - plugin main structure
