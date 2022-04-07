@@ -29,6 +29,7 @@ import (
 	_ "github.com/fairyproof-io/telegraf/plugins/inputs/conntrack"
 	_ "github.com/fairyproof-io/telegraf/plugins/inputs/consul"
 	_ "github.com/fairyproof-io/telegraf/plugins/inputs/consul_agent"
+	_ "github.com/fairyproof-io/telegraf/plugins/inputs/contracts_verified"
 	_ "github.com/fairyproof-io/telegraf/plugins/inputs/couchbase"
 	_ "github.com/fairyproof-io/telegraf/plugins/inputs/couchdb"
 	_ "github.com/fairyproof-io/telegraf/plugins/inputs/cpu"

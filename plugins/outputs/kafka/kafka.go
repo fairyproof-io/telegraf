@@ -358,13 +358,12 @@ func (k *Kafka) Write(metrics []telegraf.Metric) error {
 	msgs := make([]*sarama.ProducerMessage, 0, len(metrics))
 	for _, metric := range metrics {
 		metric, topic := k.GetTopicName(metric)
-
+		k.Log.Debugf("%s", metric)
 		buf, err := k.serializer.Serialize(metric)
 		if err != nil {
 			k.Log.Debugf("Could not serialize metric: %v", err)
 			continue
 		}
-
 		m := &sarama.ProducerMessage{
 			Topic: topic,
 			Value: sarama.ByteEncoder(buf),
